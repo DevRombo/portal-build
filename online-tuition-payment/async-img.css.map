@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["libs/shared/utils/src/lib/async-img/async-img.scss"],
+  "sourcesContent": [":host {\r\n  display: flex;\r\n  height: 100%;\r\n  width: 100%;\r\n}\r\n.async-img-container {\r\n  display: flex;\r\n}\r\n\r\n.async-img-container.skeleton {\r\n  border-radius: 4px;\r\n  background: linear-gradient(\r\n    90deg,\r\n    rgba(248, 248, 248, 0.144),\r\n    rgba(239, 239, 239, 0.356),\r\n    rgba(231, 231, 231, 0.147)\r\n  );\r\n  background-size: 200%;\r\n  animation: skeleton 1s infinite reverse;\r\n}\r\n\r\n@keyframes skeleton {\r\n  0% {\r\n    background-position: -100% 0;\r\n  }\r\n  100% {\r\n    background-position: 100%;\r\n  }\r\n}\r\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,UAAA;AACA,SAAA;;AAEF,CAAA;AACE,WAAA;;AAGF,CAJA,mBAIA,CAAA;AACE,iBAAA;AACA;IAAA;MAAA,KAAA;MAAA,KAAA,GAAA,EAAA,GAAA,EAAA,GAAA,EAAA,MAAA;MAAA,KAAA,GAAA,EAAA,GAAA,EAAA,GAAA,EAAA,MAAA;MAAA,KAAA,GAAA,EAAA,GAAA,EAAA,GAAA,EAAA;AAMA,mBAAA;AACA,aAAA,SAAA,GAAA,SAAA;;AAGF,WAZA;AAaE;AACE,yBAAA,MAAA;;AAEF;AACE,yBAAA;;;",
+  "names": []
+}
